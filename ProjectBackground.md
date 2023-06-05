@@ -16,9 +16,11 @@ Factors out of my control include: Confusion about the condition column as discu
 
 The goal of this project is to create an ML model that will be able to identify and classify "people" with heart disease given certain health states. The data analysis portion of this project is to be able to find what attributes contribute the most towards heart disease. Visualizations will be made along with the model that gives insight into the distribution of some of the attributes. 
 
-Some example research questions/hypotheses for this project include:
+Some research questions/hypotheses for this project include:
 - What impact do cholesterol levels have on heart disease rates?
-- What do different types of chest pain mean when thinking about heart disease?
+- What role do different resting blood pressure levels play on heart disease rates?
+- What role can machine learning techniques play in the medical realm?
+
 and 
 - Higher cholesterol levels lead to higher rates of heart disease.
 - Heart disease is more frequent in males rather than females.
@@ -29,7 +31,7 @@ There has been a lot of research done surrounding different health attributes an
 
 ### Methodology 
 
-I plan to investigate these phenomena by first taking into consideration the descriptive statistics of the data set. This will give me information about the significance of some of the attributes and the dataset as a whole, as well as provide more possibly needed background information. From there, I will subset and filter the data to show visualize the impact and relationship of different attributes on heart disease rates. Bar charts, scatterplots, treemaps, etc. will be utilized in this case. For the model, I plan to make several iterations, attempting to find what ML variation will provide the most accurate results without the risk of overfitting. These ML classification models may include SVM, logistic regression, Naive Bayes, clustering like KNN, and decision trees/random forests. After this, I will utilize different stats packages like sklearn, etc. to measure the accuracy of the models (confusion matrix, cross-validation). I will output the results in the form of a visualization or table when possible. 
+I plan to investigate these phenomena by first taking into consideration the descriptive statistics of the data set. This will give me information about the significance of some of the attributes and the dataset as a whole, as well as provide more possibly needed background information. From there, I will subset and filter the data to show visualize the impact and relationship of different attributes on heart disease rates. Bar charts, scatterplots, treemaps, etc. will be utilized in this case. For the model, I plan to make several iterations, attempting to find what ML variation will provide the most accurate results without the risk of overfitting. These ML classification models may include SVM, logistic regression, Naive Bayes, clustering like KNN, and decision trees/random forests. After this, I will utilize different stats packages like sklearn, etc. to measure the accuracy of the models (confusion matrix or cross-validation). I will output the results in the form of a visualization or table when possible. 
 
 
 
